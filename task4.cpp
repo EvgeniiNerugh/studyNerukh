@@ -6,7 +6,7 @@ int main() {
     int number = 12345;
     string str = to_string(number);
 
-    cout << "Число: " << number << endl;
-    cout << "Як рядок: " << str << endl;
+    cout << "Numeric: " << number << endl;
+    cout << "line: " << str << endl;
     return 0;
 }

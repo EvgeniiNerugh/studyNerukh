@@ -19,6 +19,6 @@ int main() {
         }
     }
 
-    cout << "Загальна кількість щасливих квитків: " << count << endl;
+    cout << "Total number of lucky tickets: " << count << endl;
     return 0;
 }
