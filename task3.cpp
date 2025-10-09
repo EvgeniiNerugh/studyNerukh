@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstring> // бібліотека для strlen
+#include <cstring> 
 using namespace std;
 
 int main() {
