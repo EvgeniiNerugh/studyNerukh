@@ -1,18 +1,12 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-    int number;
-    cout << "Enter a number: ";
-    cin >> number;
+    string s;
+    cout << "Vvedit ryadok: ";
+    getline(cin, s);
 
-    if (number > 0)
-        cout << "Positive" << endl;
-    else if (number < 0)
-        cout << "Negative" << endl;
-    else
-        cout << "Zero" << endl;
-
+    cout << "Dovzhyna ryadka: " << s.length() << endl;
     return 0;
 }
-
